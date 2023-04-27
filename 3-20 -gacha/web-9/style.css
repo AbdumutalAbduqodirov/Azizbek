@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+
+
+.box{
+width: 200px;
+height: 500px;
+border: 5px solid aqua;
+}
+#botinka{
+    width: 800px;
+    height: 500px;
+    background: red;
+}
+
+
+
+h3{
+color: red;
+margin-top: 20px;
+padding: 20px;
+border-color: aqua;
+
+width: 100px;
+height: 100px;
+text-decoration: none;
+
+
+
+
+}

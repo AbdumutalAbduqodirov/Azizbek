@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.container{
+    width: 1000px;
+    height: 600px;
+    border: 5px solid red;
+    margin: auto;
+    display: flex;/* X - o'qiga burib beradi */
+    justify-content: end; /* ohiriga */
+    justify-content: start; /* boshiga */
+    justify-content: center; /* o'rtaga */
+    justify-content: space-between;/* ikki chekaga taqab sochadi */
+    justify-content: space-around;/* ikki chekadan malum bir joy qoldirib sochadi */
+    justify-content: space-evenly;/* teng oraliqda sochadi  */
+    align-items: center;/* y - o'qi bo'yicha o'rtaga */
+    /* align-items: end; */
+    flex-direction: column;/* Y -oqiga buradi */
+    flex-direction: row;/* y - o'qini x o'qiga buradi */
+    flex-direction: row-reverse;/*X -o'qi bo'yich  1234 ni 4321 qilibn beradi*/
+    flex-direction: column-reverse;/*Y -o'qi bo'yich  1234 ni 4321 qilibn beradi*/
+flex-direction: row;
+flex-wrap: wrap;/* Biz bergan razmerni saqlaydi va sig'magani pastga tushib ketadi*/
+
+
+
+
+
+/*  */
+
+}
+.container .box{
+    width: 100px;
+    height: 100px;
+    border: 5px solid blue;
+}

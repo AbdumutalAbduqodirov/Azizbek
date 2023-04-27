@@ -1,0 +1,49 @@
+*{
+margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+box-sizing: border-box;
+}
+
+/* .container{
+    width: 1000px;
+    height: 500px;
+    border: 5px solid aqua;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    overflow: auto;
+} */
+.container .col{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 150px;
+    border: 5px solid red;
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    /* fixed - contentni qotirib qo'yadi */
+    /* position: fixed; */
+ /* sticky - contentlarni ustma ust qo'yib beradi */
+    position: sticky;
+
+}
+/* position - joylashiv degani */
+.container .col:nth-child(3){
+    /* relative - orqali istagan joyga surishimiz mumkun */
+/* position: relative;
+top: 167px;
+left: 300px; */
+/* absolute - oyna bo'yicha harakatlanadi agar otasiga relative bersak otasi bo'yicha harakatlanadi */
+/* position: absolute;
+bottom: 0;
+right: 0; */
+/*  */
+}

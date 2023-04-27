@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    height: 500px;
+    border: 5px solid aqua;
+    margin: auto;
+    /* har hil rang orqali parda qo'yish , kamalak rang */
+    /* background: linear-gradient(rgba(255, 0, 0, 0.368),rgba(0, 0, 255, 0),rgba(0, 128, 0, 0.46),rgba(255, 255, 0, 0.51),rgba(128, 128, 128, 0.469)),url(../photos/p0RNDErRbuU8an360ZgU1to4ld_SVvEJ_medium.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+/* overflow: hidden;  - kesib tashlab keragini olib qoladi*/
+/* overflow: scroll; - barcha matin ichiga joylashadi va skrol hosil qilib beradi */
+/* overflow: auto; - scrol ni sherigi*/
+
+}
+.container h2{
+    width: 500px;
+    height: 50px;
+    border: 6px solid red;
+    border-radius: 25px;
+    transition: 2s;
+    /* box-shadow va text- shadow - bu soya berish */
+    text-shadow: 20px 20px 10px red;
+    /* text-shadow: X Y sochilishi rangi; */
+    text-shadow: 0 0 20px red;
+    box-shadow: 10px 10px 10px black;
+    box-shadow: 0 0 20px black;
+    /* opacity: 0; */
+}
+/* opasitiy 1 va 0 oralig'i beriladi 0 bersam yo'q bo'ladi 1 bersam paydo bo'ladi agar 0.5 bersam hiralashadi yaniy 1 va 0 oralig'ida qiymat bersak hiralashadi  */
+ .container h2:hover{
+    opacity: 0.5;
+
+}
+.container h2:active{
+    opacity: 1;
+} 

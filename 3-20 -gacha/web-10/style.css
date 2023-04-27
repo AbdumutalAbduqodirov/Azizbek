@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+p{
+    width: 500px;
+    height: 60px;
+    background-color: blue;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 40px;
+    text-align: center;
+    transition: 1s;
+    /* malum bir vaqt oralig'ida ish bajarish */
+}
+/* mishka ustiga borganda o'zgaradi */
+/* p:hover{
+width: 800px;
+height: 60px;
+background-color: red;
+} */
+/* bosganda o'zgaradi */
+/* p:active{
+    width: 700px;
+    height: 60px;
+    background-color: rgb(0, 255, 119); 
+    color: white; 
+} */
+/* birinchisiga murojat */
+p:first-child{
+    background-color: black;
+    color: white;
+}
+/* oxiriga murojat */
+p:last-child{
+    background-color: aqua;
+    color: red;
+}
+/* istaganiga murojat */
+p:nth-child(4){
+    background-color: yellow;
+    color: black;
+}
+p:nth-child(1):hover{
+    width: 900px;
+    background-color: green;
+    color: azure;
+}
+/* odd - toqlariga murojat */
+p:nth-child(odd){
+    background-color: black;
+    color: white;
+}
+/* juftlariga murojat */
+p:nth-child(even){
+    background-color: red;
+    color: black;
+}

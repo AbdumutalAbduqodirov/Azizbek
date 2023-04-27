@@ -1,0 +1,25 @@
+h2{
+color: blue;
+font-size: 50px;
+font-family: sans-serif;
+font-weight:600;
+text-transform: uppercase;
+text-transform: lowercase;
+text-transform: capitalize;
+/* ***** */
+letter-spacing: 10px;/* xarflar orasidagi masofa */
+word-spacing: 20px;/* so'zlar orasidagi masofa  */
+text-align: center;/* tekosni o'rtraga suradi */
+text-align: end;/* tekosni oxiriga suradi */
+text-align: start;/* tekosni boshiga suradi */
+line-height: 80px;/*  satirlar orasidagi masofa*/
+background-color: black;/* orqa fon rangi */
+width: 800px;/* eni */
+height: 100px; /* bo'yi */
+border-width: 20px; /* chegara eni */
+border-style: double;/* chegara stili */
+border-color: aqua;/* chegara rangi */
+border: 5px solid red;m /* 3 chalasini birdaniga berish */
+
+
+}

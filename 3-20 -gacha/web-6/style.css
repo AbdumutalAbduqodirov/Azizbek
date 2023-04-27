@@ -1,0 +1,37 @@
+h2{
+color: greenyellow;
+font-style: 50px;
+font-family:cursive;
+font-weight: 500;
+text-transform: uppercase;
+text-transform: lowercase;
+text-transform: capitalize;
+letter-spacing: 10px;
+word-spacing: 20px;
+text-align: center;
+text-align: end;
+text-align: start;
+background-color: blue;
+width: 800px;
+height: 100px;
+border-width: 20px;
+border-style: double;
+border-color: aqua;
+border: 5px solid red;
+border-top: 6px dashed aqua;
+border-right: 10px double aqua;
+border-bottom: 22px dotted aquamarine;
+border-left: 18px groove red;
+width: 500px;
+height: 500px;
+border: 2px groove red;
+background: url(../photos/p0RNDErRbuU8an360ZgU1to4ld_SVvEJ_medium.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+
+
+
+
+}
